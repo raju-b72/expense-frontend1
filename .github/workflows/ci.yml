@@ -4,6 +4,6 @@ jobs:
   call-continuous-integration-reusable:
     uses: raju-b71/github-reusable-workflows/.github/workflows/ci.yml@main
     with:
-      project-name: expense-frontend
+      project-name: expense-frontend1
       npm_install: false
     secrets: inherit

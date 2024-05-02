@@ -7,8 +7,8 @@ jobs:
   call-release-reusable:
     uses: raju-b71/github-reusable-workflows/.github/workflows/release.yml@main
     with:
-      project-name: expense-frontend
+      project-name: expense-frontend1
       npm_install: true
       release_archive_file: "*"
     secrets: inherit
-#k,lhihhdk
+#k,lhihhd
